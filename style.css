@@ -1,5 +1,7 @@
 /* Estilos globais */
 body {
+    background-color: #F4F4F4;
+    color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -13,14 +15,15 @@ body {
     padding: 0;
   }
   
+  
   /* Estilos do cabeçalho */
   header {
-    background-color: #333;
-    color: #fff;
+    background-color:  #458B00;
+    color: #FFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
   }
   nav ul li {
     display: inline-block;
@@ -53,5 +56,18 @@ body {
   
   /* Estilos do rodapé */
   footer {
-    background-color: #f1f1
+    background-color: #458B00;
+    color: #FFF;
+    padding: 10px;
+  }
   
+  .btn {
+    background-color: #458B00;
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #8FBC8F;
+  }
